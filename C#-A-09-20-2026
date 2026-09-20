@@ -27,7 +27,7 @@ class Character
             Y = newY;
             Console.WriteLine($"{Name} move to ({x},{Y})");
         }
-        public void TakeDamage(int amouth)
+        public void TakeDamage(int amount)
         {
             Health -= amount;  // Decreased of your health
             Health = Math.Max(Healt, 0);
